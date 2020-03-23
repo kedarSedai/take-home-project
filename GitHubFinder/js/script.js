@@ -7,7 +7,7 @@ $(document).ready(function(){
     $.ajax({
         url:'http://api.github.com/users/' + username,
         data:  {
-            client_id: './keys/keys.client_id'
+            client_id: './keys/keys.client_id',
             client_secret: './keys/keys.client_secret'
         }
     }).done(function(user){
