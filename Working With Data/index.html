@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+`   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card card-body">
+                    <input type="text" id="search-input" class="form-control" placeholder="Search">
+                </div>
+            </div>
+        </div>
+    <table class="table table-striped">
+        <tr class="bg-success">
+            <!-- Trying FROM AJAX -->
+            <!-- <th>First_Name</th>
+            <th>Last_Name</th>
+            <th>Email</th> -->
+
+            <th data-column="name" data-order="desc">Name &#9650</th>
+            <th data-column="age"  data-order="desc">Age &#9650</th>
+            <th data-column="subject"  data-order="desc">Subject &#9650</th>
+        </tr>
+        <tbody id="myTable">
+        </tbody>
+    </table>
+</div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>]
+    <script src="json/data.js"></script>
+    <script src="js/script.js"></script>
+   
+</body>
+</html>
