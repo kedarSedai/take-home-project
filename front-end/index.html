@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mail archiver</title>
+      <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <!-- desktop view -->
+      <div class="container">
+         <div class="desktop-view">
+            <form action="#" method="GET">
+               <div class="input-group">
+                  <span class="input-group-addon transparent">
+                     <svg class="svg-calender" width="1.5rem" height="1.5rem"></svg>
+                  </span>
+                  <input class="form-control left-border-none" placeholder="2019/12/31 - 2020/1/3">	
+                  <span class="input-group-addon">
+                     <svg class="svg-search" width="1.5rem" height="1.5rem"></svg>
+                  </span>
+               </div>
+            </form>
+            <br><br>
+            <span class="results"><b>Results:10mail(s)</b></span>
+            <table class="table">
+               <thead>
+                  <hr>
+                  <tr>
+                     <th>From</th>
+                     <th>To</th>
+                     <th>Subject</th>
+                     <th>
+                        Date 
+                        <svg class="svg-arrow" width="1rem" height="1rem"></svg>
+                     </th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>aaa@example.com</td>
+                     <td>zzz.zzz@example.com</td>
+                     <td>[ HR-888 ] Notice of official announcement</td>
+                     <td>0:20</td>
+                  </tr>
+                  <tr>
+                     <td>bbb.bbbb@exam...</td>
+                     <td>yyy@example.com</td>
+                     <td>[web:333]"Web Contact"</td>
+                     <td>0:10</td>
+                  </tr>
+                  <tr>
+                     <td>ccc@example.com</td>
+                     <td>
+                        xxx@example.com, ...
+                        <p class="text">+1</p>
+                     </td>
+                     <td>
+                        Happy New Year! Greetings for the New Year.
+                        <svg class="svg-clip right-align" width="1.5rem" height="1.5rem"></svg>
+                     </td>
+                     <td>0:00</td>
+                  </tr>
+                  <tr>
+                     <td>ddd.dddd@exam...</td>
+                     <td>
+                        vvv.vvv@example.com, ...
+                        <p class="text">+1</p>
+                     </td>
+                     <td>[HR-887(Revised: Office Expansion Project Team)] Notice of off...</td>
+                     <td>Jan 01</td>
+                  </tr>
+                  <tr>
+                     <td>eee@example.com</td>
+                     <td>
+                        sss@example.com, ....
+                        <p class="text">+2</p>
+                     </td>
+                     <td>[Github] Logout page</td>
+                     <td>Jan 01</td>
+                  </tr>
+                  <tr>
+                     <td>fff.ffff@example.c...</td>
+                     <td>qqq.qqq@example.com</td>
+                     <td>[dev］Postfix 3.1.12 / 3.2.9 / 3.3.4 / 3.4.5</td>
+                     <td>Jan 01</td>
+                  </tr>
+                  <tr>
+                     <td>ggg@example.com</td>
+                     <td>ppp@example.com</td>
+                     <td>Re: [Github] Brush-up on loading animation</td>
+                     <td>Jan 01</td>
+                  </tr>
+                  <tr class="active pointer">
+                     <td class="blue">hhh.hhh@examp...</td>
+                     <td class="blue">ooo.ooo@example.com</td>
+                     <td class="blue">
+                        Workplace Summary for sample, Inc.: Jun 2 - Jun 9
+                        <svg class="svg-clip right-align" width="1.5rem" height="1.5rem"></svg>
+                     </td>
+                     <td>
+                        Jan 01 
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>iii@example.com</td>
+                     <td>nnn@example.com</td>
+                     <td>
+                        I love you
+                        <svg class="svg-clip right-align" width="1.5rem" height="1.5rem"></svg>
+                     </td>
+                     <td>2019/12/31</td>
+                  </tr>
+                  <tr>
+                     <td>Pablo-Diego-...</td>
+                     <td>Pablo-Diego-José-Francisc...</td>
+                     <td>[info:888] ABC EQUIPMENT COMPANY</td>
+                     <td>2019/12/31</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      </div>
+      <!-- end of desktop view -->
+      <!-- mobile view -->
+      <div class="container-fluid">
+         <div class="mobile-view">
+            <div class="input-form">
+               <form action="#" method="GET">
+                  <div class="input-group">
+                     <span class="input-group-addon transparent">
+                        <svg class="svg-calender" width="1rem" height="1rem"></svg>
+                     </span>
+                     <input class="form-control left-border-none" placeholder="2019/12/31 - 2020/1/3">	
+                     <span class="input-group-addon">
+                        <svg class="svg-search" width="1rem" height="1rem"></svg>
+                     </span>
+                  </div>
+               </form>
+            </div>
+            <br><br>
+            <div class="result">
+               <span class="results"><b>Results:10mail(s)</b></span>
+            </div>
+            <hr>
+            <div class="heading">
+               From
+               <svg class="svg-arrow" width="1rem" height="1rem"></svg>
+               |
+               To |
+               Subject |
+               Date
+            </div>
+            <hr>
+            <div class="content">
+               <svg class="svg-mail left-align" width="3rem" height="3rem"></svg>
+               <b id="from" class="from">aaa@example.com</b>
+               <span class="right-align">
+                  0.20 
+                  <svg class="svg-icon-arrow2" width="1rem" height="1rem"></svg>
+               </span>
+               <br>
+               zzz.zzz@example.com
+               <p>[ HR-888 ] Notice of official announcement</p>
+            </div>
+            <!-- <div class="col-sm-3">
+               <svg class="svg-mail" width="1rem" height="1rem"></svg>
+               </div> -->
+            <hr>
+            <div class="content">
+               <svg class="svg-mail left-align" width="3rem" height="3rem"></svg>
+               <b class="from">bbb.bbbb@exam...</b>
+               <span class="right-align">
+                  0:10 
+                  <svg class="svg-icon-arrow2" width="1rem" height="1rem"></svg>
+               </span>
+               <br>
+               yyy@example.com
+               <p>[web:333] "Web Contact"</p>
+            </div>
+            <hr>
+            <div class="content" >
+               <svg class="svg-mail left-align" width="3rem" height="3rem"></svg>
+               <b class="from">ccc@example.com</b>
+               <span class="right-align">
+                  0:00 
+                  <svg class="svg-icon-arrow2" width="1rem" height="1rem"></svg>
+               </span>
+               <svg class="svg-clip" width="1.5rem" height="1.5rem"></svg>
+               <br>
+               xxx@example.com, www.www@example.com
+               <p>Happy New Year! Greetings for the New Year.</p>
+            </div>
+            <hr>
+            <div class="content" >
+               <svg class="svg-mail left-align" width="3rem" height="3rem"></svg>
+               <b class="from">ddd.dddd@example.com</b>
+               <span class="right-align">
+                  Jan 01 
+                  <svg class="svg-icon-arrow2" width="1rem" height="1rem"></svg>
+               </span>
+               <br>
+               vvv.vvv@example.com, uuu@example.com, ....
+               <p class="text">+1</p>
+               <p>[ HR-888 ] Notice of official announcement</p>
+            </div>
+            <hr>
+            <div class="content" >
+               <svg class="svg-mail left-align" width="3rem" height="3rem"></svg>
+               <b class="from">eee@example.com</b>
+               <span class="right-align">
+                  Jan 01 
+                  <svg class="svg-icon-arrow2" width="1rem" height="1rem"></svg>
+               </span>
+               <br>
+               sss@example.com, rrr.rrrr@example.com, ...
+               <p class="text">+2</p>
+               <p>[HR-887(Revised: Office Expansion Project Tea...</p>
+            </div>
+            <hr>
+         </div>
+      </div>
+      </div>
+      </div>
+      <!-- end of mobile view -->
+      <script src="js/script.js"></script>
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+      <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+   </body>
+</html>

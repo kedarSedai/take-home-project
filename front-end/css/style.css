@@ -1,0 +1,139 @@
+body {
+	margin-top: 50px;
+}
+
+hr {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+/* css for icons */
+
+.svg-arrow {
+	background-image: url("../icon/icon_arrow01.svg");
+	background-repeat: no-repeat;
+	margin-left: 2px;
+	margin-top: 7px;
+}
+
+.svg-clip {
+	background-image: url("../icon/icon_clip.svg");
+	background-repeat: no-repeat;
+	float: right;
+	margin-right: 7px;
+	margin-top: 11px;
+}
+
+.svg-search {
+	background-image: url("../icon/icon_search.svg");
+	background-repeat: no-repeat;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	height: 10%;
+	width: 10%;
+}
+
+.svg-calender {
+	background-image: url("../icon/icon_calender.svg");
+	background-repeat: no-repeat;
+}
+
+.svg-mail {
+	background-image: url("../icon/icon_mail_sp.svg");
+	background-repeat: no-repeat;
+	margin-top: 0.5rem;
+}
+
+.svg-icon-arrow2 {
+	background-image: url("../icon/icon_arrow02.svg");
+	background-repeat: no-repeat;
+}
+
+
+/* end of css for icons */
+
+.pointer {
+	cursor: pointer;
+}
+
+.content {
+	margin-left: 20px;
+}
+
+
+/* custom css for input group  */
+
+.input-group {
+	width: 260px;
+}
+
+.left-align {
+	float: left;
+}
+
+.transparent {
+	background-color: transparent !important;
+	box-shadow: inset 0px 1px 0 rgba(0, 0, 0, .075);
+}
+
+.left-border-none {
+	border-left: none !important;
+	box-shadow: inset 0px 1px 0 rgba(0, 0, 0, .075);
+}
+
+
+/* end of custom css for input group  */
+
+.blue {
+	color: blue;
+}
+
+.input-form,
+.result,
+.heading {
+	margin-left: 20px;
+}
+
+.right-align {
+	float: right;
+	margin-top: 10px;
+}
+
+.text {
+	float: right;
+	margin-right: 30px;
+	background-color: #cccccc;
+	border-radius: 3px;
+}
+
+
+/* for deskop view */
+
+.desktop-view {
+	display: block;
+}
+
+
+/* for mobile view */
+
+.mobile-view {
+	display: none;
+}
+
+
+/* media Queries */
+
+@media screen and (max-width: 768px) {
+	.desktop-view {
+		display: none;
+	}
+	.mobile-view {
+		display: block;
+	}
+}
